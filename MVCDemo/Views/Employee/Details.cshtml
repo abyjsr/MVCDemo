@@ -1,0 +1,36 @@
+﻿@model MVCDemo.Models.Employee
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Employee Details</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td>EmployeeId :</td>
+                <td>@Model.EmployeeId</td>
+            </tr>
+            <tr>
+                <td>Name :</td>
+                <td>@Model.Name</td>
+            </tr>
+            <tr>
+                <td>Gender :</td>
+                <td>@Model.Gender</td>
+            </tr>
+            <tr>
+                <td>City :</td>
+                <td>@Model.City</td>
+            </tr>
+        </table>    
+    </div>
+</body>
+</html>
