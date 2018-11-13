@@ -13,6 +13,7 @@
 </head>
 <body>
     <div>
+        <h2>Employee Details</h2>
         <table>
             <tr>
                 <td>EmployeeId :</td>
@@ -30,7 +31,8 @@
                 <td>City :</td>
                 <td>@Model.City</td>
             </tr>
-        </table>    
+        </table> 
+        @Html.ActionLink("Back to list","Index")
     </div>
 </body>
 </html>
